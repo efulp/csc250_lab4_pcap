@@ -88,7 +88,7 @@ int packet_OK(const unsigned char **packet, unsigned int capture_len) {
 
 /**
  * Processes a packet, displays the packst summary, and updates the pcap stats
- * Most of the work in this program is done here...
+ * Most of the work for this program is done here...
  **/
 void process_packet(const unsigned char *packet) {
     unsigned char ttl = packet[8];
