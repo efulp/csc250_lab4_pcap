@@ -32,7 +32,7 @@ int main(int argc, char *argv[]) {
     char errbuf[PCAP_ERRBUF_SIZE];   /* buffer for error message */
     int num_pkt = 0;                 /* number of legal packets */
 
-    /* we expect exactly one argument, the name of the file to dump. */
+    /* we expect exactly one argument, the name of the pcap file. */
     if(argc < 2) {
         fprintf(stderr, "Usage: %s pcap_file \n", argv[0]);
         return 1;
